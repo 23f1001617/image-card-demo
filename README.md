@@ -2,7 +2,7 @@
 
 Generated app for:
 
-> Replace the previous image with a fully working Unsplash image of a mountain (https://images.unsplash.com/photo-1501785888041-af3ef285b470). Center the image with a caption 'Majestic Mountain – Unsplash', add a light drop shadow, and ensure it scales responsively on all screen sizes using inline CSS.
+> Update the previous page to display two Unsplash mountain images side by side: one from https://images.unsplash.com/photo-1501785888041-af3ef285b470 and another from https://images.unsplash.com/photo-1500530855697-b586d89ba3ee. Each image should have a caption below it. Use inline CSS to center them horizontally with equal spacing, responsive layout, and a subtle drop shadow.
 
 ---
 MIT License
