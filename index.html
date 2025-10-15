@@ -3,38 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Majestic Mountain</title>
+    <title>Mountain Images</title>
     <style>
         body {
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
-            height: 100vh;
+            align-items: center;
+            flex-direction: column;
             margin: 0;
+            padding: 20px;
             background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .image-box {
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            overflow: hidden;
+            max-width: 300px;
         }
         img {
-            max-width: 100%;
+            width: 100%;
             height: auto;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        .caption {
-            margin-top: 10px;
-            font-size: 1.2em;
-            color: #333;
+        @media (max-width: 600px) {
+            .image-container {
+                flex-direction: column;
+            }
         }
     </style>
 </head>
 <body>
-    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Majestic Mountain">
-    <div class="caption">Majestic Mountain – Unsplash</div>
+
+    <h1>Mountain Images</h1>
+    <div class="image-container">
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Mountain 1">
+            <p>Majestic Mountain 1</p>
+        </div>
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Mountain 2">
+            <p>Majestic Mountain 2</p>
+        </div>
+    </div>
 
     <script>
-        // Inline JavaScript can be added here if needed
-        console.log("Image and caption loaded successfully.");
+        // You can add any JavaScript functionality here if needed
+        console.log("Mountain images displayed successfully!");
     </script>
 </body>
 </html>
-<!-- build-id: 2025-10-15T10:02:29.608763 -->
+<!-- build-id: 2025-10-15T10:04:52.688150 -->
