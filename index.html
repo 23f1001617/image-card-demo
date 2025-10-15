@@ -3,42 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Gallery</title>
+    <title>Matterhorn Image Page</title>
     <style>
         body {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
+            justify-content: center;
             height: 100vh;
             margin: 0;
             background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-        }
-        .gallery {
-            text-align: center;
         }
         img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
+            border: 5px solid blue;
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
         }
         .caption {
             margin-top: 10px;
-            font-size: 1.5em;
-            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <div class="gallery">
-        <img id="galleryImage" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Matterhorn_Riffelsee_2005.jpg" alt="The Majestic Matterhorn">
-        <div class="caption">The Majestic Matterhorn</div>
-    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Matterhorn_Riffelsee_2005.jpg" alt="The Majestic Matterhorn">
+    <div class="caption">The Majestic Matterhorn</div>
 
     <script>
-        // Inline JavaScript can be added here if needed
-        console.log('Image loaded successfully!');
+        // Optional: You can add any JavaScript functionality here if needed in the future.
+        console.log("Matterhorn image page loaded.");
     </script>
 </body>
 </html>
-<!-- build-id: 2025-10-15T09:58:18.841483 -->
+<!-- build-id: 2025-10-15T10:00:46.263317 -->
