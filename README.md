@@ -2,7 +2,7 @@
 
 Generated app for:
 
-> Create a simple webpage that shows a single image of a mountain from the URL https://upload.wikimedia.org/wikipedia/commons/e/e0/Matterhorn_from_Domh%C3%BCtte_-_2.jpg with the caption 'The Majestic Matterhorn'. Center both the image and caption using inline CSS on a light-gray background.
+> Fix the previous gallery so the image loads properly. Use this working image URL https://upload.wikimedia.org/wikipedia/commons/0/08/Matterhorn_Riffelsee_2005.jpg and ensure it is fully visible, centered on the page with the caption 'The Majestic Matterhorn' below the image.
 
 ---
 MIT License
