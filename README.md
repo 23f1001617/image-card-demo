@@ -2,7 +2,7 @@
 
 Generated app for:
 
-> Update the Matterhorn image page to display the image from https://upload.wikimedia.org/wikipedia/commons/0/08/Matterhorn_Riffelsee_2005.jpg. Add a 5px solid blue border around the image and a smooth fade-in animation using inline CSS. Keep the caption 'The Majestic Matterhorn' below the image, centered.
+> Replace the previous image with a fully working Unsplash image of a mountain (https://images.unsplash.com/photo-1501785888041-af3ef285b470). Center the image with a caption 'Majestic Mountain – Unsplash', add a light drop shadow, and ensure it scales responsively on all screen sizes using inline CSS.
 
 ---
 MIT License
